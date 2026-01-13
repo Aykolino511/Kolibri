@@ -69,15 +69,11 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center">
                 <!-- Logo -->
-               <div class="flex items-center space-x-3 group cursor-pointer" onclick="window.scrollTo(0,0)">
-    
-    <img src="logo.png" 
-         alt="Logo" 
-         class="w-10 h-10 object-contain shadow-md transition-transform group-hover:scale-105" />
-
-    <div class="flex flex-col">
-        </div>
-</div>
+                <div class="flex items-center space-x-3 group cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <!-- Logo Bild ersetzt -->
+                    <img src="logo.png" alt="Kolibri Garten Logo" class="w-12 h-12 object-contain transition-transform group-hover:scale-105">
+                    
+                    <div class="flex flex-col">
                         <span id="nav-title" class="text-lg font-bold leading-none text-white transition-colors duration-300 font-serif">
                             Kolibri Garten
                         </span>
@@ -163,7 +159,8 @@
             
             <!-- Intro: Bedeutung Kolibri Garten -->
             <div class="text-center max-w-3xl mx-auto mb-20">
-                <i data-lucide="bird" class="mx-auto text-emerald-600 w-10 h-10 mb-6"></i>
+                <!-- Logo auch hier statt Icon -->
+                <img src="logo.png" alt="Kolibri" class="mx-auto w-12 h-12 mb-6 object-contain">
                 <h2 class="text-3xl md:text-4xl font-bold text-stone-800 mb-6 font-serif">Tiefe, Leichtigkeit und Wandlung</h2>
                 <p class="text-lg text-stone-600 leading-relaxed mb-6">
                     Der <strong>Kolibri</strong> symbolisiert Leichtigkeit, Lebendigkeit und die Fähigkeit, selbst in schwierigen Zeiten Kraft aus dem Inneren zu schöpfen. 
@@ -179,8 +176,9 @@
                 <!-- Linke Spalte: Bild & Zitat -->
                 <div class="w-full lg:w-5/12 relative sticky top-32">
                     <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl relative z-10 bg-white mb-8">
+                        <!-- Eigenes Bild eingefügt -->
                         <img 
-                            src="ulyana.png" 
+                            src="ulyana.jpg" 
                             alt="Ulyana Perz" 
                             class="w-full h-full object-cover"
                         >
@@ -525,9 +523,9 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div class="col-span-1 md:col-span-2">
                     <div class="flex items-center gap-3 mb-6">
-                        <div class="w-8 h-8 bg-emerald-700 rounded-full flex items-center justify-center">
-                            <i data-lucide="bird" class="text-white w-4 h-4"></i>
-                        </div>
+                        <!-- Logo im Footer -->
+                        <img src="logo.png" alt="Logo" class="w-8 h-8 object-contain">
+                        
                         <span class="text-stone-200 font-bold text-xl font-serif">Kolibri Garten</span>
                     </div>
                     <p class="text-stone-500 leading-relaxed max-w-sm text-sm">
@@ -642,5 +640,3 @@
     </script>
 </body>
 </html>
-
-
